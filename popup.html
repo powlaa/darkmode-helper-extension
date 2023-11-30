@@ -1,0 +1,36 @@
+<html lang=en>
+
+<body>
+    <style>
+        :root {
+            height: 38px;
+        }
+
+        body {
+            background-color: #242330;
+            color: #fff;
+            margin: 0;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        button {
+            background-color: #242330;
+            padding: 10px;
+            border: none;
+        }
+
+        object {
+            pointer-events: none;
+        }
+    </style>
+    <button id=toggle>
+        <object alt="Sun Icon" data=icons/sun.svg height=20 id=sun type=image/svg+xml width=20></object>
+        <object alt="Moon Icon" data=icons/moon.svg height=20 id=moon type=image/svg+xml width=20 class=hidden></object>
+    </button>
+    <script src="popup.js" type="module"></script>
+</body>
+
+</html>

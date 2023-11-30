@@ -1,0 +1,11 @@
+.darkModeHelper {
+    transition: filter 350ms ease-in-out !important;
+}
+
+.darkModeHelper--dark {
+    background-color: black;
+    filter: invert(1) hue-rotate(180deg) !important;
+}
+.darkModeHelper--dark img {
+    filter: invert(1) hue-rotate(180deg) !important;
+}
